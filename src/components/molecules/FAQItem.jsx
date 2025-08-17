@@ -33,10 +33,11 @@ const FAQItem = ({ article, showRating = true }) => {
       <div className={`accordion-content ${isOpen ? 'expanded' : ''} overflow-hidden`}>
         <div className="px-6 pb-6">
           <div className="border-t border-gray-100 pt-4">
-            <div className="prose prose-gray max-w-none">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                {article.answer}
-              </p>
+<div className="prose prose-gray max-w-none">
+              <div 
+                className="text-gray-700 leading-relaxed mb-4 rich-content"
+                dangerouslySetInnerHTML={{ __html: article.answer }}
+              />
             </div>
             
             {article.tags && article.tags.length > 0 && (

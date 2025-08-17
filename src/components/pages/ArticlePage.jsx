@@ -84,10 +84,11 @@ const ArticlePage = () => {
             )}
           </div>
           
-          <div className="prose prose-lg prose-gray max-w-none mb-8">
-            <p className="text-gray-700 leading-relaxed text-lg">
-              {article.answer}
-            </p>
+<div className="prose prose-lg prose-gray max-w-none mb-8">
+            <div 
+              className="text-gray-700 leading-relaxed text-lg rich-content"
+              dangerouslySetInnerHTML={{ __html: article.answer }}
+            />
           </div>
           
           {/* Rating */}
