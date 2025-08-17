@@ -1,0 +1,61 @@
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm;
+  }
+  
+  .toast-container .Toastify__toast {
+    @apply rounded-lg shadow-lg;
+  }
+  
+  .toast-container .Toastify__toast--success {
+    @apply bg-green-50 text-green-800 border-l-4 border-green-400;
+  }
+  
+  .toast-container .Toastify__toast--error {
+    @apply bg-red-50 text-red-800 border-l-4 border-red-400;
+  }
+  
+  .toast-container .Toastify__toast--info {
+    @apply bg-blue-50 text-blue-800 border-l-4 border-blue-400;
+  }
+  
+  .toast-container .Toastify__toast--warning {
+    @apply bg-yellow-50 text-yellow-800 border-l-4 border-yellow-400;
+  }
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-content.expanded {
+  max-height: 1000px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #de5e00 0%, #ff7a29 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.search-glow:focus {
+  box-shadow: 0 0 0 3px rgba(222, 94, 0, 0.1), 0 0 20px rgba(222, 94, 0, 0.1);
+}

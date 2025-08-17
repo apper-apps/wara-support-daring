@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "title": "Bestellingen & Levering",
+    "icon": "Package",
+    "description": "Vragen over je bestelling, levertijd en verzending",
+    "color": "bg-blue-50 text-blue-600",
+    "articleCount": 12
+  },
+  {
+    "Id": 2,
+    "title": "Retouren & Terugbetalingen",
+    "icon": "RotateCcw",
+    "description": "Informatie over retourneren en terugbetalingen",
+    "color": "bg-green-50 text-green-600",
+    "articleCount": 8
+  },
+  {
+    "Id": 3,
+    "title": "Producten & Voorraad",
+    "icon": "ShoppingBag",
+    "description": "Vragen over producten, beschikbaarheid en specificaties",
+    "color": "bg-purple-50 text-purple-600",
+    "articleCount": 15
+  },
+  {
+    "Id": 4,
+    "title": "Betaalmethoden",
+    "icon": "CreditCard",
+    "description": "Informatie over betaling en betalingsmogelijkheden",
+    "color": "bg-orange-50 text-orange-600",
+    "articleCount": 6
+  },
+  {
+    "Id": 5,
+    "title": "Account & Privacy",
+    "icon": "User",
+    "description": "Account beheer en privacy instellingen",
+    "color": "bg-pink-50 text-pink-600",
+    "articleCount": 10
+  },
+  {
+    "Id": 6,
+    "title": "Technische Ondersteuning",
+    "icon": "Settings",
+    "description": "Hulp bij technische problemen met de website",
+    "color": "bg-cyan-50 text-cyan-600",
+    "articleCount": 7
+  }
+]

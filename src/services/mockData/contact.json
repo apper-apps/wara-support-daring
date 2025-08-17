@@ -1,0 +1,8 @@
+{
+  "email": "klantenservice@wara.be",
+  "phone": "+32 2 123 45 67",
+  "hours": "Maandag t/m vrijdag: 9:00 - 17:00",
+  "address": "Wara Belgium, Keizerslaan 1, 1000 Brussel",
+  "response": "We streven ernaar om binnen 24 uur te reageren op je vraag",
+  "languages": ["Nederlands", "Frans", "Engels"]
+}
